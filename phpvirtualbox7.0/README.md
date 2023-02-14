@@ -36,7 +36,7 @@ possession.
 
 Default login is username: admin password: admin
 
-Please report bugs to email: amakhov108@mail.ru
+Please report bugs by email: amakhov108@mail.ru
 
 # Password Recovery
 
