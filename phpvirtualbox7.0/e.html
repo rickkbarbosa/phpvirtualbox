@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>404752</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='/var/www/html/phpvirtualbox/endpoints/api.php' bgcolor='#eeeeec'>.../api.php<b>:</b>0</td></tr>
+<tr><th align='left' colspan='5' bgcolor='#e9b96e'>Variables in local scope (#1)</th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$d&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec' valign='top'><i>Undefined</i></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$details&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec' valign='top'><i>Undefined</i></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$e&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>SoapFault</i>)[<i>7</i>]
+  <i>protected</i> 'message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SOAP-ERROR: Parsing WSDL: Couldn&#39;t load from &#39;/var/www/html/phpvirtualbox/endpoints/lib/vboxwebService-.wsdl&#39; : failed to load external entity &quot;/var/www/html/phpvirtualbox/endpoints/lib/vboxwebService-.wsdl&quot;&#10;'</font> <i>(length=208)</i>
+  <i>private</i> 'string' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  <i>protected</i> 'code' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>0</font>
+  <i>protected</i> 'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'/var/www/html/phpvirtualbox/endpoints/lib/vboxconnector.php'</font> <i>(length=59)</i>
+  <i>protected</i> 'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>183</font>
+  <i>private</i> 'trace' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=3)</i>
+      0 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'/var/www/html/phpvirtualbox/endpoints/lib/vboxconnector.php'</font> <i>(length=59)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>183</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SoapClient'</font> <i>(length=10)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SoapClient'</font> <i>(length=10)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=2)</i>
+              0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'/var/www/html/phpvirtualbox/endpoints/lib/vboxwebService-.wsdl'</font> <i>(length=62)</i>
+              1 <font color='#888a85'>=&gt;</font> 
+                <b>array</b> <i>(size=5)</i>
+                  'features' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>5</font>
+                  'cache_wsdl' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>3</font>
+                  'trace' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+                  'connection_timeout' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+                  'location' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'http://127.0.0.1:18083/'</font> <i>(length=23)</i>
+      1 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'/var/www/html/phpvirtualbox/endpoints/lib/auth/Builtin.php'</font> <i>(length=58)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>44</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'connect'</font> <i>(length=7)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'vboxconnector'</font> <i>(length=13)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=0)</i>
+              <i><font color='#888a85'>empty</font></i>
+      2 <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=6)</i>
+          'file' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'/var/www/html/phpvirtualbox/endpoints/api.php'</font> <i>(length=45)</i>
+          'line' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>132</font>
+          'function' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'login'</font> <i>(length=5)</i>
+          'class' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'phpvbAuthBuiltin'</font> <i>(length=16)</i>
+          'type' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'-&gt;'</font> <i>(length=2)</i>
+          'args' <font color='#888a85'>=&gt;</font> 
+            <b>array</b> <i>(size=2)</i>
+              0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'admin'</font> <i>(length=5)</i>
+              1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'admin'</font> <i>(length=5)</i>
+  <i>private</i> 'previous' <small>(Exception)</small> <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+  <i>public</i> 'faultstring' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'SOAP-ERROR: Parsing WSDL: Couldn&#39;t load from &#39;/var/www/html/phpvirtualbox/endpoints/lib/vboxwebService-.wsdl&#39; : failed to load external entity &quot;/var/www/html/phpvirtualbox/endpoints/lib/vboxwebService-.wsdl&quot;&#10;'</font> <i>(length=208)</i>
+  <i>public</i> 'faultcode' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'WSDL'</font> <i>(length=4)</i>
+  <i>public</i> 'xdebug_message' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#f57900&#39; colspan=&quot;5&quot;&gt;&lt;span style=&#39;background-color: #cc0000; color: #fce94f; font-size: x-large;&#39;&gt;( ! )&lt;/span&gt; SoapFault: SOAP-ERROR: Parsing WSDL: Couldn&#39;t load from &#39;/var/www/html/phpvirtualbox/endpoints/lib/vboxwebService-.wsdl&#39; : failed to load external entity &quot;/var/www/html/phpvirtualbox/endpoints/lib/vboxwebService-.wsdl&quot;&#10; in /var/www/html/phpvirtualbox/endpoints/lib/vboxconnector.php on line &lt;i&gt;183&lt;/i&gt;&lt;/th&gt;&lt;/tr&gt;&#10;&lt;tr&gt;&lt;th align=&#39;left&#39; bgcolor=&#39;#e9b96e&#39; colspan=&#39;5&#39;&gt;Call Sta'...</font> <i>(length=2819)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$k&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec' valign='top'><i>Undefined</i></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$m&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec' valign='top'><i>Undefined</i></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$request&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'>
+<b>array</b> <i>(size=4)</i>
+  '{&quot;fn&quot;:&quot;login&quot;,&quot;params&quot;:{&quot;u&quot;:&quot;admin&quot;,&quot;p&quot;:&quot;admin&quot;},&quot;persist&quot;:null}' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+  'fn' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'login'</font> <i>(length=5)</i>
+  'params' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=2)</i>
+      'u' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'admin'</font> <i>(length=5)</i>
+      'p' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'admin'</font> <i>(length=5)</i>
+  'persist' <font color='#888a85'>=&gt;</font> <font color='#3465a4'>null</font>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$response&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'>
+<b>array</b> <i>(size=4)</i>
+  'data' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=1)</i>
+      'responseData' <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=0)</i>
+          <i><font color='#888a85'>empty</font></i>
+  'errors' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  'persist' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  'messages' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$settings&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'>
+<b>object</b>(<i>phpVBoxConfigClass</i>)[<i>1</i>]
+  <i>public</i> 'language' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'en'</font> <i>(length=2)</i>
+  <i>public</i> 'phpVboxGroups' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  <i>public</i> 'previewWidth' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>180</font>
+  <i>public</i> 'previewAspectRatio' <font color='#888a85'>=&gt;</font> <small>float</small> <font color='#f57900'>1.6</font>
+  <i>public</i> 'deleteOnRemove' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+  <i>public</i> 'browserRestrictFiles' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=16)</i>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.iso'</font> <i>(length=4)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.vdi'</font> <i>(length=4)</i>
+      2 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.vmdk'</font> <i>(length=5)</i>
+      3 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.img'</font> <i>(length=4)</i>
+      4 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.bin'</font> <i>(length=4)</i>
+      5 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.vhd'</font> <i>(length=4)</i>
+      6 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.hdd'</font> <i>(length=4)</i>
+      7 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.ovf'</font> <i>(length=4)</i>
+      8 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.ova'</font> <i>(length=4)</i>
+      9 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.xml'</font> <i>(length=4)</i>
+      10 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.vbox'</font> <i>(length=5)</i>
+      11 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.cdr'</font> <i>(length=4)</i>
+      12 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.dmg'</font> <i>(length=4)</i>
+      13 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.ima'</font> <i>(length=4)</i>
+      14 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.dsk'</font> <i>(length=4)</i>
+      15 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'.vfd'</font> <i>(length=4)</i>
+  <i>public</i> 'browserLocal' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  <i>public</i> 'consoleResolutions' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=5)</i>
+      0 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'640x480'</font> <i>(length=7)</i>
+      1 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'800x600'</font> <i>(length=7)</i>
+      2 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1024x768'</font> <i>(length=8)</i>
+      3 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1280x720'</font> <i>(length=8)</i>
+      4 <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'1440x900'</font> <i>(length=8)</i>
+  <i>public</i> 'nicMax' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>4</font>
+  <i>public</i> 'maxProgressList' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>5</font>
+  <i>public</i> 'enableCustomIcons' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  <i>public</i> 'warnDefault' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  <i>public</i> 'vrdeports' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'9000-9100'</font> <i>(length=9)</i>
+  <i>public</i> 'key' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'53474945cfd7ac0bf8114767c209c2a6'</font> <i>(length=32)</i>
+  <i>public</i> 'auth' <font color='#888a85'>=&gt;</font> 
+    <b>object</b>(<i>phpvbAuthBuiltin</i>)[<i>2</i>]
+      <i>public</i> 'capabilities' <font color='#888a85'>=&gt;</font> 
+        <b>array</b> <i>(size=3)</i>
+          'canChangePassword' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+          'canModifyUsers' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+          'canLogout' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+  <i>public</i> 'vboxAutostartConfig' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>false</font>
+  <i>public</i> 'authCapabilities' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=3)</i>
+      'canChangePassword' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+      'canModifyUsers' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+      'canLogout' <font color='#888a85'>=&gt;</font> <small>boolean</small> <font color='#75507b'>true</font>
+  <i>public</i> 'authConfig' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>public</i> 'eventListenerTimeout' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>20</font>
+  <i>public</i> 'username' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'vboxuser'</font> <i>(length=8)</i>
+  <i>public</i> 'password' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'ubhbl[fhb'</font> <i>(length=9)</i>
+  <i>public</i> 'location' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'http://127.0.0.1:18083/'</font> <i>(length=23)</i>
+  <i>public</i> 'vrdeaddress' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'0.0.0.0'</font> <i>(length=7)</i>
+  <i>public</i> 'consoleHost' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'192.168.108.7'</font> <i>(length=13)</i>
+  <i>public</i> 'hostMemInfoRefreshInterval' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>5</font>
+  <i>public</i> 'consoleKeyboardLayout' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'EN'</font> <i>(length=2)</i>
+  <i>public</i> 'servers' <font color='#888a85'>=&gt;</font> 
+    <b>array</b> <i>(size=0)</i>
+      <i><font color='#888a85'>empty</font></i>
+  <i>public</i> 'name' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+  <i>public</i> 'authLib' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Builtin'</font> <i>(length=7)</i>
+  <i>public</i> 'previewUpdateInterval' <font color='#888a85'>=&gt;</font> <small>int</small> <font color='#4e9a06'>3</font>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$skipExistCheck&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec' valign='top'><i>Undefined</i></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$v&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec' valign='top'><i>Undefined</i></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$vbox&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><font color='#3465a4'>null</font>
+</pre></td></tr>
+
+
+  </body>
+</html>
