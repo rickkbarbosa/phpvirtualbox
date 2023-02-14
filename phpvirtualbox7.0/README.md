@@ -6,7 +6,7 @@ with support from various contributors (see https://github.com/phpvirtualbox/php
 
 Originally Copyright (C) 2015 Ian Moore (imoore76 at yahoo dot com)
 
-VirtualBox 7.0.6 adaptation by Alexey Makhov
+VirtualBox 7.0.6 adaptation by Alexey Makhov.
 
 FREE, WITHOUT WARRANTY:
 
@@ -20,20 +20,23 @@ possession.
 
 # Installation from Zip file
 
-1) Download zip file from GitHub project site: https://github.com/phpvirtualbox/phpvirtualbox/archive/master.zip
+1) Download snapshot from sourceforge project site: https://sourceforge.net/p/phpvirtualbox-7/code/ci/master/tree/
 
-2) Unzip the zipfile into a folder accessible by your web server
+2) Unzip the zipfile and enter to the folder 'phpvirtualbox-7-code-.....'
+
+3) Rename folder phpvirtualbox7.0 with phpvirtualbox.
+
+2) Move folder phpvirtualbox to the location accessible by your web server.
+
+3) Enter the phpvirtualbox folder.
 
 3) Rename config.php-example to config.php and edit as needed.
-
-Read the wiki for more information : https://github.com/phpvirtualbox/phpvirtualbox/wiki
 
 # Post installation
 
 Default login is username: admin password: admin
 
-Please report bugs / feature requests to GitHub
-https://github.com/phpvirtualbox/phpvirtualbox/issues
+Please report bugs to email: amakhov108@mail.ru
 
 # Password Recovery
 
