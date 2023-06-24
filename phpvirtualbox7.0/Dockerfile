@@ -1,7 +1,2 @@
-FROM php:5.6-apache
-RUN apt-get update && \
-    apt-get install -y \
-        libxml2 \
-        libxml2-dev && \
-    docker-php-ext-install soap
+FROM cdue/php-soap:7-apache
 COPY . /var/www/html
