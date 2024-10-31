@@ -2294,7 +2294,6 @@ var vboxVMActions = {
 		}
 		
 		$.when(vboxAjaxRequest('machineSetState',{'vm':vm.id,'state':fn})).done(function(d){
-      
 			if(!(d && d.success) && errorMsg) {
 				vboxAlert(errorMsg.replace('%1', vm.name));
 				return;
